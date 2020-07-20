@@ -10,7 +10,7 @@ class AELikeModel:
     AE-like Model with Pooling as a Size-changing Factor
     """
     def __init__(self, image_size, alpha, verbose=False, trained_model=None):
-        tf.reset_default_graph()
+        tf.compat.v1.reset_default_graph()
         self.image_size = image_size
         self.alpha = alpha
         self.verbose = verbose
