@@ -1,6 +1,5 @@
 import tensorflow as tf
-from ML_BoneSuppression import utils
-from utils import check_and_create_dir, print_train_steps, get_batch, extract_image_path, extract_n_normalize_image
+from ML_BoneSuppression.utils import check_and_create_dir, print_train_steps, get_batch, extract_image_path, extract_n_normalize_image
 import os
 import numpy as np
 import cv2
